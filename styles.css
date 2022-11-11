@@ -38,7 +38,7 @@ body {
 }
 
 img {
-  /* center image horizontally: */
+  /* center image inside card horizontally: */
   margin: auto;
   display: block;
   /* end center image */
