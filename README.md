@@ -33,6 +33,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 - Flexbox
 - Google Fonts
 - Media Queries
+- Responsively App
 
 ### What I learned
 
