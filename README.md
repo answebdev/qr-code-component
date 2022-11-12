@@ -31,6 +31,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 - HTML
 - CSS
 - Flexbox
+- Google Fonts
 - Media Queries
 
 ### What I learned
