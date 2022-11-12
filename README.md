@@ -36,24 +36,20 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-To see how you can add code snippets, see below:
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
+Although I was able to center the main card horizontally, it was a little tricky to get it centered vertically, even though I was using the appropriate Flexbox properties. Finally, I was able to get it centered vertically using the following CSS:
 
 ```css
-.proud-of-this-css {
-  color: papayawhip;
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
 }
-```
-
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉');
-};
 ```
 
 If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
